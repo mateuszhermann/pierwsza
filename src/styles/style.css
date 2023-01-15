@@ -1,0 +1,108 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    background-color: #F8F8F8;
+    width: 1440px;
+    height: 960px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+.card{
+    background-color: #EFEEEE;
+    width: 550px;
+    height: 760px;
+    box-shadow: 0px 435px 174px rgba(0, 0, 0, 0.01), 0px 245px 147px rgba(0, 0, 0, 0.05), 0px 109px 109px rgba(0, 0, 0, 0.09), 0px 27px 60px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 150px;
+}
+.right{
+    padding-left: 80px;
+    width: 650px;
+}
+
+.calc{
+    display: inline-block;
+}
+.bottom{
+    text-align: left;
+    padding-top: 80px;
+}
+#number{
+    width: 470px;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+
+}
+#chck{
+    background: #2B2B2B;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+
+    text-align: center;
+    text-transform: capitalize;
+    text-align: center;
+
+    color: #EFEEEE;
+    padding: 19px 45px;
+    margin-top: 40px;
+}
+label{
+
+    width: 126px;
+    height: 17px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 110%;
+    /* or 44px */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #333333;
+
+}
+#number:focus{
+    border: 6px solid #CCCCCC;
+    text-align: left;
+    padding-left: 10px;
+}
+#chck:hover{
+    border: 6px solid #CCCCCC;
+    border-radius: 10px;
+}
